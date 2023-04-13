@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 /*
 Colors:
 
@@ -6,3 +7,166 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 10px;
+    
+
+}
+nav img{
+    width: 130px;
+    height: 40px;
+}
+
+nav div{
+    display: flex;
+    gap: 15px;
+    padding-right: 20px;
+        
+}
+
+.first-section {
+    /* background-image: url(/images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px; */
+}
+.first-section img{
+    width: 100%;
+    
+}
+
+.first-section h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: -350px;
+}
+
+.first-section h3{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: -350px;
+}
+
+.container {
+    position: relative;
+    top: -180px;
+    background-color: rgb(227, 231, 231);
+
+}
+
+.container h3{
+    text-align: center;
+    padding: 30px;
+  
+
+}
+.hr-verde {
+    border: none;
+    border-top: 2px solid green;
+    width: 140px;
+    position: relative;
+    top: -40px;
+}
+
+.second-container{
+    display: flex;
+    justify-content: space-around;
+}  
+
+.third-container{
+    text-align: center;
+    
+}
+
+.third-container img{
+        width: 100px;
+    position: relative;
+    top: -10px;
+    
+}
+.third-container .img-fix{
+    padding-bottom: 15px;
+}
+
+.third-container h4{
+    color:#00B172 ;
+    font-size: 15px;
+    position: relative;
+    top: -30px;
+
+}
+
+.third-container p{
+    color: rgb(179, 179, 179);
+    font-size: 12px;
+    position: relative;
+    top: -35px;
+}
+
+.lastSection{
+    background-color: #00B172;
+    position: relative;
+    top: -200px;
+}
+
+.outContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.white-img{
+    height: 70px;
+    position: relative;
+    top: 100px;
+}
+
+.big-image{
+    height: 290px;
+    position: relative;
+    top: -10px;
+}
+
+.lastSection{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.lastSection h3{
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 55px;
+}
+
+.lastSection hr{
+    border: none;
+    border-top: 2px solid rgb(255, 255, 255);
+    width: 220px;
+    position: relative;
+    top: 18px;
+    left: -200px;
+    
+}
+.parag h4{
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+}
+
+.parag p{
+    color: rgb(250, 247, 241);
+    font-size: 10px;
+}
